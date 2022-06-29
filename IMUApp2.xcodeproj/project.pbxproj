@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB169677286BD17F008FD529 /* IMUApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169676286BD17F008FD529 /* IMUApp2App.swift */; };
+		FB169679286BD17F008FD529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169678286BD17F008FD529 /* ContentView.swift */; };
+		FB16967B286BD180008FD529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB16967A286BD180008FD529 /* Assets.xcassets */; };
+		FB16967E286BD180008FD529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB16967D286BD180008FD529 /* Preview Assets.xcassets */; };
+		FB16968E286BD216008FD529 /* directionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169684286BD216008FD529 /* directionView.swift */; };
+		FB16968F286BD216008FD529 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169685286BD216008FD529 /* ShareButton.swift */; };
+		FB169690286BD216008FD529 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169686286BD216008FD529 /* SwiftUIView.swift */; };
+		FB169691286BD216008FD529 /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169687286BD216008FD529 /* TestUI.swift */; };
+		FB169692286BD216008FD529 /* UDPControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169688286BD216008FD529 /* UDPControllerClass.swift */; };
+		FB169693286BD216008FD529 /* powerOffAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB169689286BD216008FD529 /* powerOffAnimation.swift */; };
+		FB169694286BD216008FD529 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16968A286BD216008FD529 /* ResetButton.swift */; };
+		FB169695286BD216008FD529 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16968B286BD216008FD529 /* Sensor.swift */; };
+		FB169696286BD216008FD529 /* directionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16968C286BD216008FD529 /* directionStatus.swift */; };
+		FB169697286BD216008FD529 /* NetworkInfomationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16968D286BD216008FD529 /* NetworkInfomationViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB169673286BD17F008FD529 /* IMUApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMUApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB169676286BD17F008FD529 /* IMUApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMUApp2App.swift; sourceTree = "<group>"; };
+		FB169678286BD17F008FD529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB16967A286BD180008FD529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB16967D286BD180008FD529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB169684286BD216008FD529 /* directionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = directionView.swift; sourceTree = "<group>"; };
+		FB169685286BD216008FD529 /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		FB169686286BD216008FD529 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		FB169687286BD216008FD529 /* TestUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
+		FB169688286BD216008FD529 /* UDPControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPControllerClass.swift; sourceTree = "<group>"; };
+		FB169689286BD216008FD529 /* powerOffAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = powerOffAnimation.swift; sourceTree = "<group>"; };
+		FB16968A286BD216008FD529 /* ResetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		FB16968B286BD216008FD529 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		FB16968C286BD216008FD529 /* directionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = directionStatus.swift; sourceTree = "<group>"; };
+		FB16968D286BD216008FD529 /* NetworkInfomationViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInfomationViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB169670286BD17F008FD529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB16966A286BD17F008FD529 = {
+			isa = PBXGroup;
+			children = (
+				FB169675286BD17F008FD529 /* IMUApp2 */,
+				FB169674286BD17F008FD529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB169674286BD17F008FD529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB169673286BD17F008FD529 /* IMUApp2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB169675286BD17F008FD529 /* IMUApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB169676286BD17F008FD529 /* IMUApp2App.swift */,
+				FB169678286BD17F008FD529 /* ContentView.swift */,
+				FB16968C286BD216008FD529 /* directionStatus.swift */,
+				FB169684286BD216008FD529 /* directionView.swift */,
+				FB16968D286BD216008FD529 /* NetworkInfomationViews.swift */,
+				FB169689286BD216008FD529 /* powerOffAnimation.swift */,
+				FB16968A286BD216008FD529 /* ResetButton.swift */,
+				FB16968B286BD216008FD529 /* Sensor.swift */,
+				FB169685286BD216008FD529 /* ShareButton.swift */,
+				FB169686286BD216008FD529 /* SwiftUIView.swift */,
+				FB169687286BD216008FD529 /* TestUI.swift */,
+				FB169688286BD216008FD529 /* UDPControllerClass.swift */,
+				FB16967A286BD180008FD529 /* Assets.xcassets */,
+				FB16967C286BD180008FD529 /* Preview Content */,
+			);
+			path = IMUApp2;
+			sourceTree = "<group>";
+		};
+		FB16967C286BD180008FD529 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB16967D286BD180008FD529 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB169672286BD17F008FD529 /* IMUApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB169681286BD180008FD529 /* Build configuration list for PBXNativeTarget "IMUApp2" */;
+			buildPhases = (
+				FB16966F286BD17F008FD529 /* Sources */,
+				FB169670286BD17F008FD529 /* Frameworks */,
+				FB169671286BD17F008FD529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMUApp2;
+			productName = IMUApp2;
+			productReference = FB169673286BD17F008FD529 /* IMUApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB16966B286BD17F008FD529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB169672286BD17F008FD529 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FB16966E286BD17F008FD529 /* Build configuration list for PBXProject "IMUApp2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB16966A286BD17F008FD529;
+			productRefGroup = FB169674286BD17F008FD529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB169672286BD17F008FD529 /* IMUApp2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB169671286BD17F008FD529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB16967E286BD180008FD529 /* Preview Assets.xcassets in Resources */,
+				FB16967B286BD180008FD529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB16966F286BD17F008FD529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB169679286BD17F008FD529 /* ContentView.swift in Sources */,
+				FB169696286BD216008FD529 /* directionStatus.swift in Sources */,
+				FB169695286BD216008FD529 /* Sensor.swift in Sources */,
+				FB169691286BD216008FD529 /* TestUI.swift in Sources */,
+				FB169693286BD216008FD529 /* powerOffAnimation.swift in Sources */,
+				FB169692286BD216008FD529 /* UDPControllerClass.swift in Sources */,
+				FB169677286BD17F008FD529 /* IMUApp2App.swift in Sources */,
+				FB169697286BD216008FD529 /* NetworkInfomationViews.swift in Sources */,
+				FB16968E286BD216008FD529 /* directionView.swift in Sources */,
+				FB16968F286BD216008FD529 /* ShareButton.swift in Sources */,
+				FB169694286BD216008FD529 /* ResetButton.swift in Sources */,
+				FB169690286BD216008FD529 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB16967F286BD180008FD529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB169680286BD180008FD529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB169682286BD180008FD529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IMUApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = 23W3KFU297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SC3.IMUApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB169683286BD180008FD529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IMUApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = 23W3KFU297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SC3.IMUApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB16966E286BD17F008FD529 /* Build configuration list for PBXProject "IMUApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB16967F286BD180008FD529 /* Debug */,
+				FB169680286BD180008FD529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB169681286BD180008FD529 /* Build configuration list for PBXNativeTarget "IMUApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB169682286BD180008FD529 /* Debug */,
+				FB169683286BD180008FD529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB16966B286BD17F008FD529 /* Project object */;
+}
